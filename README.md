@@ -1,5 +1,8 @@
 ## Xubuntu 18.04.2 Base Setup After installation
 
+ansible-playbook -i inventory bootstrap.yaml -b -K
+
+
 ### Packages
    
       - google-cloud-sdk
